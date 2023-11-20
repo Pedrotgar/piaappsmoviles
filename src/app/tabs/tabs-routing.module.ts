@@ -33,7 +33,7 @@ const routes: Routes = [
   }
 ];
 
-@NgModule({
+@NgModule( {
   imports: [RouterModule.forChild(routes)],
-})
+} )
 export class TabsPageRoutingModule {}

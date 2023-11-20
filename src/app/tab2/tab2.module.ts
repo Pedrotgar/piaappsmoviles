@@ -8,7 +8,7 @@ import { ExploreContainerComponentModule } from '../explore-container/explore-co
 import { Tab2PageRoutingModule } from './tab2-routing.module';
 
 
-@NgModule({
+@NgModule( {
   imports: [
     IonicModule,
     CommonModule,
@@ -17,5 +17,5 @@ import { Tab2PageRoutingModule } from './tab2-routing.module';
     Tab2PageRoutingModule 
   ],
   declarations: [Tab2Page]
-})
+} )
 export class Tab2PageModule {}
